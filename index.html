@@ -2,7 +2,7 @@
   <head>
     
     <meta name="robots" content="noindex, nofollow">
-    <link rel="icon" href="./logo_3cf.png">
+    <link rel="icon" href="./ico.png">
     <title>无法访问此网站</title>
 
     
@@ -21,9 +21,9 @@
       }
 
       #logo {
-            height: 60px;
-            width: 60px;
-            background-image: url(logo_grey.png);
+            height: 42px;
+            width: 33px;
+            background-image: url(err_1.png);
             background-size: cover;             /* 背景全覆盖 */
             background-position: center;        /* 图片居中定位 */
             background-repeat: no-repeat;       /* 背景不重复 */
@@ -32,9 +32,9 @@
 
         /* 鼠标悬停时显示的图片 */
       #logo:hover {
-          height: 60px;
-          width: 60px;
-          background-image: url(logo_color.gif); /* 鼠标悬停时显示的图片 */
+          height: 42px;
+          width: 33px;
+          background-image: url(err_3.png); /* 鼠标悬停时显示的图片 */
           background-size: cover;             /* 背景全覆盖 */
           background-position: center;        /* 图片居中定位 */
           background-repeat: no-repeat;       /* 背景不重复 */
@@ -55,20 +55,21 @@
       h1 {
         color: rgb(154, 160, 166);
         font-size: 20px;
-        font-weight: 400;
+        /* font-weight: bold; */
+        font-weight: bold;
         margin-bottom: 10px;
       }
       /* 设置错误代码样式 */
       .error-code {
-        color: #5f6368;
+        color: rgb(154, 160, 166);
         font-size: 12px;
         margin-top: 8px;
-        margin-bottom: 16px;
+        margin-bottom: 50px;
       }
       /* 设置建议列表样式 */
       .suggestions {
-        margin-top: 16px;
-        padding-left: 20px;
+        margin-top: -15px;
+        padding-left: 40px;
       }
       /* 设置按钮容器样式 */
       .button-container {
@@ -125,7 +126,7 @@
       <!-- 显示标题 -->
       <h1>无法访问此网站</h1>
       <!-- 显示错误信息 -->
-      <p>www.fishol.cn 的响应时间过长。</p>
+      <p><b>www.fishol.cn</b> 的响应时间过长。</p>
       <!-- 显示建议操作 -->
       <p>请尝试以下操作：</p>
       <ul class="suggestions">
@@ -135,7 +136,6 @@
       </ul>
       <!-- 显示错误代码 -->
       <div class="error-code">ERR_FUCK_GREAT_FIREWALL</div>
-      <br/>
       <!-- 显示按钮 -->
       <div class="button-container">
         <a href="#" class="button primary-button" onclick="window.location.reload();">重新加载</a>
