@@ -1,1 +1,1 @@
-仿了个 ERR_CONNECTION_TIMED_OUT 的错误页。
+仿了个 Chrome 的 ERR_CONNECTION_TIMED_OUT 错误页。
